@@ -8,7 +8,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,4 +18,30 @@
 
 .App-link {
   color: #09d3ac;
+}
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.menu > li {
+  list-style: none;
+  margin: 0 1px;
+  padding: 0.25em;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  width: 20%;
+  border-left: 1px solid #999;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.menu > li:hover {
+  color: #000;
+  background: #aaa;
 }
